@@ -1,0 +1,53 @@
+body {
+  font-family: "Segoe UI", sans-serif;
+  background: #e0f7fa;
+  margin: 0;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 100%;
+  max-width: 400px;
+}
+
+.search-box input {
+  padding: 10px;
+  width: 70%;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.search-box button {
+  padding: 10px;
+  border: none;
+  background: #007bff;
+  color: white;
+  border-radius: 6px;
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+.weather-card {
+  margin-top: 20px;
+}
+
+.weather-card img {
+  width: 80px;
+}
+
+.weather-card h2 {
+  margin: 10px 0;
+}
+
+.error {
+  color: red;
+}
